@@ -1,6 +1,6 @@
-GitPython
-joblib
-matplotlib
-pandas
 streamlit
-scikit-learn
+pandas
+matplotlib
+seaborn
+scikit-learn==1.6.1
+joblib

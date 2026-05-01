@@ -2,5 +2,5 @@ GitPython
 joblib
 matplotlib
 pandas
-scikit-learn
 streamlit
+scikit-learn==1.4.2

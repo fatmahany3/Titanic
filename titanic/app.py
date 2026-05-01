@@ -67,7 +67,13 @@ div[data-baseweb="select"] > div {
 st.markdown(white_text_css, unsafe_allow_html=True)
 
 # ---------------- LOAD MODEL ----------------
-model = pickle.load(open("best_titanic_model.pkl", "rb"))
+import os
+
+# This finds the folder where app.py lives
+current_dir = os.path.dirname(__file__)
+model_path = os.path.join(current_dir, "best_titanic_model.pkl")
+
+model = pickle.load(open(model_path, "rb"))
 
 # ---------------- TITLE ----------------
 st.title("Titanic Survival Prediction 🚢")

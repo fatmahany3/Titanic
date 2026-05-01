@@ -6,7 +6,7 @@ numpy==2.0.2
 pandas==2.2.2
 pickleshare==0.7.5
 scikit-learn==1.6.1
-
+pickle
 seaborn==0.13.2
 
 streamlit==1.50.0
